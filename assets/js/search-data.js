@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/sambhasana.github.io/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-team",
+          title: "Team",
+          description: "The people behind the research.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/sambhasana.github.io/team/";
+          },
+        },{id: "nav-publications",
           title: "publications",
           description: "Publications from the Saṁbhāṣaṇa Research Group.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/sambhasana.github.io/publications/";
-          },
-        },{id: "nav-team",
-          title: "team",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/sambhasana.github.io/people/";
           },
         },{id: "post-a-post-with-plotly-js",
         
