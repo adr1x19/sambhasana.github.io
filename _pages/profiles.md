@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Team
+title: team
 permalink: /team/
 description: The people behind the research.
 nav: true
