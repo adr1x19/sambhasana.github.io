@@ -1,28 +1,42 @@
 ---
-layout: profiles
-permalink: /people/
-title: team
-description: members of the lab or group
+layout: page
+title: Team
+permalink: /team/
+description: The people behind the research.
 nav: true
-nav_order: 7
-
-profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
-  - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
-  - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+nav_order: 2
 ---
+
+## Current Members
+
+<div class="row">
+    <div class="col-sm-4">
+        <img class="img-fluid rounded z-depth-1" src="https://placehold.co/400x400" alt="Member Name">
+    </div>
+    <div class="col-sm-8">
+        <h3>Member Name</h3>
+        <p><strong>PhD Candidate</strong></p>
+        <p>Focus: Natural Language Processing, AI Ethics.</p>
+        <a href="mailto:email@example.com">Email</a> | <a href="#">Website</a>
+    </div>
+</div>
+<hr>
+
+<div class="row">
+    <div class="col-sm-4">
+        <img class="img-fluid rounded z-depth-1" src="https://placehold.co/400x400" alt="Member Name">
+    </div>
+    <div class="col-sm-8">
+        <h3>Another Member</h3>
+        <p><strong>Masters Student</strong></p>
+        <p>Focus: Computer Vision.</p>
+        <a href="mailto:email@example.com">Email</a>
+    </div>
+</div>
+
+<br>
+
+## Past Members
+
+* **Aryan Dongare** (2025-2026)
+* **Kirtan Bhojani** (2025-2026)
