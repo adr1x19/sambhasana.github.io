@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://sambhasana.github.io/sitemap.xml
+Sitemap: https://adr1x19.github.io/sambhasana.github.io/sitemap.xml
