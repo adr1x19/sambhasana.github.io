@@ -24,7 +24,7 @@ ninja.data = [{
             window.location.href = "/sambhasana.github.io/publications/";
           },
         },{id: "nav-join-us",
-          title: "Join Us",
+          title: "join Us",
           description: "Interested in working with us?",
           section: "Navigation",
           handler: () => {
