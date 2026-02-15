@@ -17,7 +17,7 @@ ninja.data = [{
             window.location.href = "/sambhasana.github.io/about2/";
           },
         },{id: "nav-team",
-          title: "team",
+          title: "Team",
           description: "The people behind the research.",
           section: "Navigation",
           handler: () => {
