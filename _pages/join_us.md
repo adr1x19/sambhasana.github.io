@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Join Us
+title: join us
 permalink: /join/
 description: Interested in working with us?
 nav: true
