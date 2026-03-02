@@ -1,7 +1,7 @@
 ---
 layout: page
 title: about2
-permalink: /about2/
+permalink:
 nav: true
 nav_order: 1
 ---
