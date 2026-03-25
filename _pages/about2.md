@@ -1,8 +1,8 @@
 ---
 layout: page
-title: about2
-permalink:
-nav: true
+title: about
+permalink: /
+nav: false
 nav_order: 1
 ---
 
@@ -31,12 +31,15 @@ nav_order: 1
         </ul>
 
         <div class="mt-4">
-            <img src="https://placehold.co/600x300" alt="Lab Group Photo" class="img-fluid rounded z-depth-1">
+            <img src="assets/img/group_photo.jpg" alt="Lab Group Photo" class="img-fluid rounded z-depth-1">
             <p class="caption">The group at the university campus.</p>
         </div>
         
         <h3>Selected Publications</h3>
-        <p>See our <a href="/publications/">full list of publications</a>.</p>
+        <div class="publications">
+            {% bibliography --query @*[featured=true]* %}
+        </div>
+        <p>See our <a href="{{ '/publications/' | relative_url }}">full list of publications</a>.</p>
         </div>
 
     <div class="col-sm-4">
@@ -66,7 +69,7 @@ nav_order: 1
         <div class="mt-5 p-3 rounded" style="background-color: #f8f9fa; border: 1px solid #ddd;">
             <h5>Join the Team!</h5>
             <p class="small">We are looking for passionate PhD and Master students.</p>
-            <a href="/join/" class="btn btn-sm btn-outline-primary">More Info</a>
+            <a href="{{ '/join/' | relative_url }}" class="btn btn-sm btn-outline-primary">More Info</a>
         </div>
     </div>
 </div>
