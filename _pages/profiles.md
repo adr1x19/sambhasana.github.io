@@ -126,16 +126,7 @@ nav_order: 2
         <p class="team-card-project">Agentic Graph Repair</p>
       </div>
     </div>
-
-    <div class="team-card">
-      <img src="https://placehold.co/180x180" alt="Prince">
-      <div class="team-card-body">
-        <h4>Prince</h4>
-        <p class="team-card-role">Student Researcher</p>
-        <p class="team-card-project">Agentic Graph Repair</p>
-      </div>
-    </div>
-
+    
     <div class="team-card">
       <img src="https://placehold.co/180x180" alt="Tathagat Rath">
       <div class="team-card-body">
